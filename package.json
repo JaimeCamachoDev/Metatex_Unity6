@@ -1,0 +1,13 @@
+{
+  "name": "com.jaime.metatex",
+  "version": "1.0.0",
+  "displayName": "Metatex Importer",
+  "description": "Importador personalizado de texturas procedurales para Unity 6.",
+  "unity": "6000.0",
+  "author": {
+    "name": "Jaime Camacho",
+    "email": "tucorreo@example.com",
+    "url": "https://github.com/JaimeCamachoDev"
+  },
+  "_fingerprint": "dcc4d1651802ea1673be6d8da8c95209c0e157d9"
+}

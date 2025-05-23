@@ -1,59 +1,37 @@
-Metatex
-=======
+<header>
 
-![photo](https://user-images.githubusercontent.com/343936/157153911-9c396e39-7243-40bc-b8f4-1bebecd2a543.jpg)
+![Metatex](https://github.com/user-attachments/assets/3875925f-ef32-4cab-a535-cbb9dde55119)
 
-**Metatex** is a metadata-only texture asset importer for Unity. It
-procedurally generates a texture from metadata at import-time.
+# **Metatex_Unity6**
+_**Metadata-only texture importer for Unity 6**_
 
-It provides the following texture generators at the moment:
 
-- Shader/Material baker
-- Solid color
-- Linear/radial gradient
-- [Colormaps] (Matplotlib colormaps, Turbo, HSLuv and HSV)
-- Checkerboard
-- UV checker
-- TV test card
-- Emoji
+</header>
 
-About Emoji Textures
---------------------
+## Requerimientos
 
-The Emoji texture generator downloads color emoji assets (image files) from
-the [noto-emoji] repository in an on-demand fashion. It requires an internet
-connection on importing.
+- [x] Unity 6.0.42f1
+- [ ] VFX Graph
+- [ ] Shader Graph
+- [ ] Shader Amplify (ASE)
+- [ ] Particle System
+- [x] Tools
+- [x] Resources
 
-Note that you should follow the noto-emoji license terms when using imported
-assets in your project. See the repository documentation for details.
+## Instalación
+Desde otro proyecto Unity, abre el **Package Manager**, selecciona **Add package from Git URL...** e introduce:
 
-[noto-emoji]: https://github.com/googlefonts/noto-emoji
+```
+https://github.com/JaimeCamachoDev/Metatex_Unity6.git
+```
 
-[Colormaps]: https://github.com/keijiro/Pugrad
+     
+<footer>
 
-Related Project
----------------
+---
 
-- [Metamesh] - Metadata-only mesh asset importer
+[Wiki JaimeCamachoDev](https://jaimecamachodev.github.io)
 
-[Metamesh]: https://github.com/keijiro/Metamesh
+[keijiro/Metatex](https://github.com/keijiro/Metatex.git)
 
-How To Install
---------------
-
-This package uses the [scoped registry] feature to resolve package
-dependencies. Open the Package Manager page in the Project Settings window and
-add the following entry to the Scoped Registries list:
-
-- Name: `Keijiro`
-- URL: `https://registry.npmjs.com`
-- Scope: `jp.keijiro`
-
-![Scoped Registry](https://user-images.githubusercontent.com/343936/162576797-ae39ee00-cb40-4312-aacd-3247077e7fa1.png)
-
-Now you can install the package from My Registries page in the Package Manager
-window.
-
-![My Registries](https://user-images.githubusercontent.com/343936/162576825-4a9a443d-62f9-48d3-8a82-a3e80b486f04.png)
-
-[scoped registry]: https://docs.unity3d.com/Manual/upm-scoped.html
+</footer>
